@@ -5,11 +5,15 @@ from snowflake.snowpark.functions import col
 # Write directly to the app
 st.title('My Parents New Healthy Diner')
 st.write(
-  """Breakfast Menu
-  """
+  ""Breakfast Menu
+  ""
 )
 
-
+st.write(
+ "Omega 3 & Blueberry Oatmeal
+ Kale, Spinach & Rocket Smoothie
+ Hard-Boiled Free-Range Egg"")
+ 
 name_on_order = st.text_input("Name on Smoothie:")
 st.write('The name on your Smoothie will be:',name_on_order)
 
